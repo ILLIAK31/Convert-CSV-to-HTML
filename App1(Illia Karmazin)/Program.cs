@@ -30,7 +30,7 @@ namespace App1_Illia_Karmazin_
                 }
                 ++i;
             }
-            File.WriteAllText("index.html", (Text1 + Text2));
+            File.WriteAllText(@"../../index.html", (Text1 + Text2));
         }
     }
 }
