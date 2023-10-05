@@ -13,7 +13,7 @@ namespace App1_Illia_Karmazin_
         {
             string[] csv = System.IO.File.ReadAllLines(@"../../text.csv");
             int i = 0;
-            string tag1 = "<th>", tag2 = "</th>", Text2 = "\n</table>\n</body>\n</html>", Text1 = "<!DOCTYPE html>\n<html>\n<head>\n<style>\ntable\n{\nfont-family: arial, sans-serif;\nborder-collapse: collapse;\nwidth: 100%;\n}\ntd, th\n{\nborder: 1px solid #dddddd;\ntext-align: left;\npadding: 8px;\n}\ntr:nth-child(even)\n{\nbackground-color: #dddddd;\n}\n</style>\n</head>\n<body>\n<table>";
+            string tag1 = "<th>", tag2 = "</th>", Text2 = "\n</table>\n</body>\n</html>", Text1 = "<!DOCTYPE html>\n<html>\n<head>\n<style>\ntable\n{\nfont-family: arial, sans-serif;\nborder-collapse: collapse;\nwidth: 100%;\n}\ntd, th\n{\nborder: 1px solid #dddddd;\ntext-align: left;\npadding: 8px;\n}\ntr:nth-child(even)\n{\nbackground-color: #c9c9c9;\n}\n</style>\n</head>\n<body>\n<table>";
             foreach (var line1 in csv)
             {
                 Text1 += "\n<tr>\n";
