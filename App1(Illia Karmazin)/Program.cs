@@ -17,7 +17,7 @@ namespace App1_Illia_Karmazin_
             foreach (var line1 in csv)
             {
                 Text1 += "\n<tr>\n";
-                var csv2 = line1.Split('/');
+                var csv2 = line1.Split(';');
                 foreach (var line2 in csv2)
                 {
                     Text1 += (tag1 + line2 + tag2);
